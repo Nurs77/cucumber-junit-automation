@@ -1,48 +1,38 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/modelClassTest.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/shoppingSearchSorting.feature");
 formatter.feature({
-  "name": "Model class test",
+  "name": "Shopping Search Result Sorting",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
-  "name": "Testing the model class, custom data type",
+  "name": "Ascending price order verification in Search Result",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@pojo_type"
+      "name": "@priceOrder"
     }
   ]
 });
 formatter.step({
-  "name": "user logs in to application",
+  "name": "user goes to shopping homepage",
   "keyword": "Given "
 });
 formatter.step({
-  "name": "user creates account for user info:",
-  "keyword": "Then ",
-  "rows": [
-    {
-      "cells": [
-        "title",
-        "first name",
-        "last name",
-        "phone number"
-      ]
-    },
-    {
-      "cells": [
-        "\u003ctitle\u003e",
-        "\u003cfirstName\u003e",
-        "\u003clastName\u003e",
-        "\u003cphoneNumber\u003e"
-      ]
-    }
-  ]
+  "name": "user searches for item \"\u003citem\u003e\"",
+  "keyword": "Then "
 });
 formatter.step({
-  "name": "user verifies stuff",
+  "name": "user verifies a message \"\u003cresult\u003e\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "user selects sort by option \"\u003csortByOption\u003e\"",
   "keyword": "And "
+});
+formatter.step({
+  "name": "user verifies each result is sorted by lowest price first",
+  "keyword": "Then "
 });
 formatter.examples({
   "name": "",
@@ -51,37 +41,27 @@ formatter.examples({
   "rows": [
     {
       "cells": [
-        "title",
-        "firstName",
-        "lastName",
-        "phoneNumber"
+        "item",
+        "result",
+        "sortByOption"
       ]
     },
     {
       "cells": [
-        "Mr",
-        "John",
-        "Doe",
-        "123123123"
-      ]
-    },
-    {
-      "cells": [
-        "Mrs",
-        "Emily",
-        "Smith",
-        "95494838392"
+        "dress",
+        "7",
+        "Price: Lowest first"
       ]
     }
   ]
 });
 formatter.scenario({
-  "name": "Testing the model class, custom data type",
+  "name": "Ascending price order verification in Search Result",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@pojo_type"
+      "name": "@priceOrder"
     }
   ]
 });
@@ -89,117 +69,58 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "user logs in to application",
+  "name": "user goes to shopping homepage",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "ModelClassTest_steps.user_logs_in_to_application()"
+  "location": "ShppingDressTypes_steps.user_goes_to_shopping_homepage()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user creates account for user info:",
-  "rows": [
-    {
-      "cells": [
-        "title",
-        "first name",
-        "last name",
-        "phone number"
-      ]
-    },
-    {
-      "cells": [
-        "Mr",
-        "John",
-        "Doe",
-        "123123123"
-      ]
-    }
-  ],
+  "name": "user searches for item \"dress\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "ModelClassTest_steps.user_creates_account_for_user_info(User\u003e)"
+  "location": "ShoppingSearchSorting_steps.user_searches_for_item(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user verifies stuff",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "ModelClassTest_steps.user_verifies_stuff()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Testing the model class, custom data type",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@pojo_type"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user logs in to application",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "ModelClassTest_steps.user_logs_in_to_application()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user creates account for user info:",
-  "rows": [
-    {
-      "cells": [
-        "title",
-        "first name",
-        "last name",
-        "phone number"
-      ]
-    },
-    {
-      "cells": [
-        "Mrs",
-        "Emily",
-        "Smith",
-        "95494838392"
-      ]
-    }
-  ],
+  "name": "user verifies a message \"7\"",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "ModelClassTest_steps.user_creates_account_for_user_info(User\u003e)"
+  "location": "ShoppingSearchSorting_steps.user_verifies_a_message(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user verifies stuff",
+  "name": "user selects sort by option \"Price: Lowest first\"",
   "keyword": "And "
 });
 formatter.match({
-  "location": "ModelClassTest_steps.user_verifies_stuff()"
+  "location": "ShoppingSearchSorting_steps.user_selects_sort_by_option(String)"
 });
 formatter.result({
   "status": "passed"
 });
+formatter.step({
+  "name": "user verifies each result is sorted by lowest price first",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "ShoppingSearchSorting_steps.user_verifies_each_result_is_sorted_by_lowest_price_first()"
+});
+formatter.result({
+  "error_message": "java.lang.AssertionError: Ascending order in prices failed: first price: 16.51 second price: 16.4\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat steps.ShoppingSearchSorting_steps.user_verifies_each_result_is_sorted_by_lowest_price_first(ShoppingSearchSorting_steps.java:45)\n\tat ✽.user verifies each result is sorted by lowest price first(src/test/resources/features/shoppingSearchSorting.feature:9)\n",
+  "status": "failed"
+});
+formatter.embedding("image/png", "embedded0.png");
+formatter.write("THIS SCENARIO FAILED");
 formatter.after({
   "status": "passed"
 });
