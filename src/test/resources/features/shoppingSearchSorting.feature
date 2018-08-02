@@ -10,6 +10,6 @@ Feature: Shopping Search Result Sorting
 	
 	Examples:
 	|item  |result	|sortByOption		 |
-	|dress |7       |Price: Lowest first |
+	|dress |67       |Price: Lowest first |
 #	|short | 4		|Price: Lowest first |
 #	|printed dress|5|Price: Lowest first |
