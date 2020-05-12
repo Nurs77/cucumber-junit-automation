@@ -1,12 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1919" />
-    <option name="height" value="1057" />
+  <component name="ChangeListManager">
+    <list default="true" id="6dae6150-79ed-4e7b-9e6c-3253c95a19ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps_definitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/BrowserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DateTimeUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid16225.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/FacebookPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MvnHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ShoppingAccountCreationPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ShoppingHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ShoppingSearchPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/DataTableConfigure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/GoogleSearch_steps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ModelClassTest_steps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/MvnSearch_steps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ShoppingAccountCreation_steps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ShoppingSearchSorting_steps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ShppingDressTypes_steps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ExcelFileTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ExcelTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Maps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/UnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/DataStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ExcelUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/gooleSearch.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/modelClassTest.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/mvnrepoSearch.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/newTest.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/scenarioOutlineTest.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/shoppingAccountCreation.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/shoppingDressTypes.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/shoppingSearchSorting.feature" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bohMamViMHgqtoK6LzGNt2l8ca" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/utilities" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="steps_definitions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\krizb\IdeaProjects\cucumber-junit-automation\src\test\java\utilities" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -29,5 +94,18 @@
         <item itemvalue="JUnit.CukesRunner" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6dae6150-79ed-4e7b-9e6c-3253c95a19ea" name="Default Changelist" comment="" />
+      <created>1589304306418</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589304306418</updated>
+    </task>
+    <servers />
   </component>
 </project>
