@@ -9,20 +9,10 @@ import org.openqa.selenium.TakesScreenshot;
 
 public class Hooks {
 
-    @Before(order = 2)
+    @Before
     public void setup(){
         System.out.println("Test setup");
         Driver.getDriver().manage().window().maximize();
-    }
-
-    @Before(value = "@driver", order = 1)
-    public void specialSetup(){
-        System.out.println("Setup for driver");
-    }
-
-    @After("@driver")
-    public void specialTearDown(){
-        System.out.println("Tear down for driver only");
     }
 
     @After
